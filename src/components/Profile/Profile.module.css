@@ -1,0 +1,38 @@
+.wrapper {
+  width: 300px;
+  height: 340px;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px black solid;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px black solid;
+  background-color: gray;
+}
+
+.name {
+  font-weight: 700;
+  font-style: 16px;
+  color: black;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: gray;
+  padding-left: 0;
+  flex-wrap: wrap;
+  & li {
+    width: 70px;
+  }
+}

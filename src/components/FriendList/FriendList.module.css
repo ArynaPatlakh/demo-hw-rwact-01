@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-around;
+  padding-top: 80px;
+  text-align: center;
+  & li {
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 25px;
+  }
+}
+
+.text {
+  margin: 0;
+}
+
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
